@@ -1,2 +1,3 @@
 # node_modules 파일 업로드 x
 /node_modules
+.env

@@ -4,12 +4,16 @@
   "description": "최윤형 멘티의 서버 만들기 프로젝트",
   "main": "app.js",
   "scripts": {
-    "start" : "nodemon app"
+    "start": "nodemon app"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1"
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
